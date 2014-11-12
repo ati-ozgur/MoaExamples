@@ -20,3 +20,7 @@ others/*
 *.iml
 *.ipr
 *.iws
+
+*.project
+.settings/*
+*.classpath
