@@ -16,3 +16,7 @@ build/
 *.sublime-workspace
 documents/**/*.pdf
 others/*
+# idea files
+*.iml
+*.ipr
+*.iws
