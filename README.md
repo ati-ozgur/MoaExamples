@@ -1,11 +1,16 @@
-MoaExamples
+Moa Examples
 ===========
 
-According to Moa Use Group Message https://groups.google.com/d/msg/moa-users/H11AKhDyZvQ/25kiBr6m4gEJ
+This repository is created for learning examples for [MOA Massive Online Analysis ](http://moa.cms.waikato.ac.nz/) Tool.
 
-You should use "LearnModel" to learn the model with file A, and then 
-"EvaluateModel" with file B and the model created using file A: 
 
-    http://moa.cms.waikato.ac.nz/details/classification/command-line/ 
+When you are learning a new tool, most of the time you struggle with first time setup. This repository uses gradle to make this process easy. Gradle wrapper will download all necessary components from internet and will make it easy for you to work with MOA.
 
-Cheers, Albert 
+
+
+
+
+
+
+
+
