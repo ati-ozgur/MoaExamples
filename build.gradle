@@ -44,4 +44,9 @@ task execMoaExample(type:JavaExec) {
 }
 
 
-
+task execLearnModelExample1(type:JavaExec) {
+  main = "moaExamples.LearnModelExample1"
+  classpath = sourceSets.main.runtimeClasspath
+  group = GROUP_NAME_EXEC_CMD
+  description = 'Learn Model Example 1'
+}
