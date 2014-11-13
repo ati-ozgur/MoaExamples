@@ -24,4 +24,4 @@ others/*
 *.project
 .settings/*
 *.classpath
-src/main/resources/arffFiles/*.arff
+arffFiles/*.arff

@@ -50,3 +50,10 @@ task execLearnModelExample1(type:JavaExec) {
   group = GROUP_NAME_EXEC_CMD
   description = 'Learn Model Example 1'
 }
+
+task execLearnModelExampleArffFile(type:JavaExec) {
+    main = "moaExamples.LearnModelExampleArffFile"
+    classpath = sourceSets.main.runtimeClasspath
+    group = GROUP_NAME_EXEC_CMD
+    description = 'Learn Model Example Arff File'
+}
