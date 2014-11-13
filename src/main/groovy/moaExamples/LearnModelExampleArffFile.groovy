@@ -22,4 +22,12 @@ lm.doTask();
 println(learner);
 
 
+File objectStore = new File('breast-cance.ser')
+def os
+try {
+    os = objectStore.newObjectOutputStream()
+    os << learner
+} catch (e) { throw new Exception(e) } finally { os?.close() }
+assert objectStore.exists()
+
 
