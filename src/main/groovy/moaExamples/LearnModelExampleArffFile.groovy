@@ -22,12 +22,20 @@ lm.doTask();
 println(learner);
 
 
-File objectStore = new File('breast-cance.ser')
-def os
+File objectStore = new File('modelFiles\\breast-cancer.ser')
+def os = null
 try {
     os = objectStore.newObjectOutputStream()
     os << learner
-} catch (e) { throw new Exception(e) } finally { os?.close() }
+}
+catch (e)
+{
+    throw new Exception(e)
+}
+finally
+{
+    os?.close()
+}
 assert objectStore.exists()
 
 
