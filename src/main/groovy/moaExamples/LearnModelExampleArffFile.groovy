@@ -22,7 +22,7 @@ lm.doTask();
 println(learner);
 
 
-File objectStore = new File('modelFiles\\breast-cancer.ser')
+File objectStore = new File('modelFiles\\breast-cancer.moaModel')
 def os = null
 try {
     os = objectStore.newObjectOutputStream()
