@@ -26,4 +26,8 @@ others/*
 *.classpath
 arffFiles/*.arff
 modelFiles/*.ser
-
+modelFiles/*.moa
+modelFiles/*.model
+modelFiles/*.moamodel
+arffFiles/*.moa
+arffFiles/*.model
