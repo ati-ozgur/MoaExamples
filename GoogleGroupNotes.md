@@ -15,11 +15,13 @@ Evaluate Periodic Heldout Test
 
 
 
-java.exe -Xmx1400m  -classpath sizeofag.jar;jna.jar;moa.jar moa.DoTask EvaluatePeriodicHeldOutTest -l (HoeffdingTree -m 400000000) -s (ArffFileStream -f (adult.arff))-n 8840 -i 40000 -f 5000
+java -Xmx1400m  -classpath sizeofag.jar;moa.jar moa.DoTask EvaluatePeriodicHeldOutTest -l (HoeffdingTree -m 400000000) -s (ArffFileStream -f (adult.arff))-n 8840 -i 40000 -f 5000
 
 
 
 
-
+java -classpath .;moa.jar;weka.jar -javaagent:sizeofag.jar moa.DoTask
+LearnModel -l HoeffdingTree -s generators.WaveformGenerator -m 1000000
+-O model1.moa
 
 
